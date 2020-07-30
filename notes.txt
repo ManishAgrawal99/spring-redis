@@ -1,0 +1,6 @@
+Redis Server
+
+E:\Redis
+
+run redis-server.exe
+check connection with redis-cli.exe

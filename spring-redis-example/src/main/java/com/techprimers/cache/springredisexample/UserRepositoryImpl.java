@@ -1,14 +1,11 @@
-package com.example.demo.repositoryImplementation;
+package com.techprimers.cache.springredisexample;
 
-import java.util.Map;
-
+import com.techprimers.cache.springredisexample.model.User;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.model.User;
-import com.example.demo.repository.UserRepository;
-
+import java.util.Map;
 
 @Repository
 public class UserRepositoryImpl implements UserRepository {

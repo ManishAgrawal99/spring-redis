@@ -1,15 +1,10 @@
-package com.example.demo.model;
+package com.techprimers.cache.springredisexample.model;
 
 import java.io.Serializable;
 
 public class User implements Serializable {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = -7243137285849870567L;
-	
-	private String id;
+    private String id;
     private String name;
     private Long salary;
 

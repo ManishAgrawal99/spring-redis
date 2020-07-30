@@ -1,8 +1,8 @@
-package com.example.demo.repository;
+package com.techprimers.cache.springredisexample;
+
+import com.techprimers.cache.springredisexample.model.User;
 
 import java.util.Map;
-
-import com.example.demo.model.User;
 
 public interface UserRepository {
 
